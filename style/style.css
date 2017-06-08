@@ -1,0 +1,74 @@
+body {
+    color: #333;
+}
+
+section {
+    float: left;
+    border: 1px solid dodgerblue;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    width: 93%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 4px;
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.content {
+    margin: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 30px;
+}
+
+input[type="submit"] {
+    height: 36px;
+}
+
+#current-weather .content {
+    display: none;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.label {
+    font-weight: bold;
+}
+
+#temperature {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#temperature-icon {
+    width: 100px;
+}
+
+#forecast img {
+    width: 70px;
+}
+
+#forecast .day {
+    font-weight: bold;
+}
+
+#google-map {
+    float: left;
+    margin-right: 20px;
+}
